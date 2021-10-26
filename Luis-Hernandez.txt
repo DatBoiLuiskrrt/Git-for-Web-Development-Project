@@ -59,20 +59,46 @@
     28. How do I add a 1px border around my div that is dotted and black?
     border: 1px dotted black;
     29. How do I select everything on the page?
-     
+    using *{} 
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    // for single line or
+    /**/ for multiple lines
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd to print working directory 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    using ls 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+    git rm <file.js> You have to be very careful because you can end up deleting unwanted files.
+    34. Why should I use version control?
+    You should use version control becuase it is very helpful when it comes to keeping track of commits, working on teams, and you can revert changes that may not really work with your main branch. 
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    You should commit every 20 minutes or everytime you have done a major change.
+    36. What is the command we would use to push our repo up to github?
+    git push -u origin <name of branch> 
+    37. Walk me through Lambda's git flow.
+    1.fork repository
+    2.git clone <repo>
+    3.cd into project
+    4.git checkout -b <create a new branch>
+    5.Add files, then commit, and then push
+    6.Open pull request.
+    7.submit pull request.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Inline elements do not start on a new line and only occupy the width it requires. You also cannot set the width nor heigth.
+    Block elements will start on a new line and occupy the full width available, and you can set the width and height.
+    2. What happens when an element is positioned absolutely?
+    Elements are positioned relative to their nearest parent container. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    inline-block 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Block:
+    div, h1, p.
+    Inline:
+    span, a.
+    Inline-block:
+    img
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model is essentially a box that surrounds every html element. The fix for the box model to make every element respect the width we give them is to set the display to block or inline block;
