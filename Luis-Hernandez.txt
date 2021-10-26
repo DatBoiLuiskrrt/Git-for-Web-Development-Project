@@ -1,6 +1,7 @@
  https://codepen.io/datboiluiskrrt/pen/NWvjpbY?editors=1100
 
- 1. What is Semantic HTML? 
+ 1. What is Semantic HTML?
+    Semantic html is a way to write html elements that are declarative and used preferably to keep code clean.
     2. What is HTML used for?
     It is used for structuring the page using semantic elements. 
     3. What is an attribute and where do we put it?
